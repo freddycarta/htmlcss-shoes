@@ -61,6 +61,5 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: yellow;
-    align-items: center;
-} 
+    text-align: center;
 
