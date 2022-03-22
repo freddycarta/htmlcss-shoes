@@ -1,8 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .main-nav{
     position: fixed;
     top: 0;
     right: 0;
-    display: inline;
-    text-decoration: none;
+    z-index: 10;
+    background-color: brown;
+  }
+
+  li {
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    font-family: bold;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 25px;
+  }
+
+  a {
+      text-decoration: none;
   }
 
